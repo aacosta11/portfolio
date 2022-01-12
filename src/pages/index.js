@@ -1,10 +1,11 @@
 import * as React from 'react';
+import _Layout from '../components/Shared/_Layout';
+import HomeContent from '../components/Home/HomeContent';
 // import { StaticImage } from "gatsby-plugin-image"; // to use <img> tag
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
-      <h1>Home Page!</h1>
+      <_Layout content={<HomeContent />} />
     </main>
   )
 }
