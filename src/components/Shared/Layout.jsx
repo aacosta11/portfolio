@@ -1,7 +1,7 @@
 import React from "react";
 import FloatingMenu from "./Navigation/FloatingMenu";
 import "../../Styles/global.css";
-const _Layout = ({content}) => {
+const Layout = ({content}) => {
     return (<>
     <FloatingMenu />
     <div id="main-content">
@@ -9,4 +9,4 @@ const _Layout = ({content}) => {
     </div>
     </>)
 }
-export default _Layout;
+export default Layout;
