@@ -8,7 +8,7 @@ const FloatingMenu = props => {
     const {isMenuActive,setIsMenuActive} = useContext(IsMenuActive);
     const menuController = useAnimation();
     const listContainer = {
-        hidden: {opacity: 0,x:200,transition: {delayChildren: .5,duration: .55}},
+        hidden: {opacity: 0,x:0,transition: {delayChildren: .5,duration: .55}},
         visible: {
             opacity: 1,
             transition: {
