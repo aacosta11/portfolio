@@ -45,6 +45,9 @@
 .width-100-percent {
     width: 100%;
 }
+.width-80-percent {
+    width: 80%;
+}
 /* -------------------------------------------------------------------------- */
 /*                                   HEIGHT                                   */
 /* -------------------------------------------------------------------------- */
@@ -164,9 +167,15 @@
 .X-jc-space-evenly {
     justify-content: space-evenly;
 }
+.X-jc-end {
+    justify-content: end;
+}
 /* ------------------------------- align items ------------------------------ */
 .X-ai-center {
     align-items: center;
+}
+.X-ai-end {
+    align-items: flex-end;
 }
 /* ----------------------------- flex-direction ----------------------------- */
 .X-fd-column {
