@@ -1,6 +1,15 @@
+const { createProxyMiddleware } = require("http-proxy-middleware");
 module.exports = {
     siteMetadata: {
-        siteUrl: `https://www.yourdomain.tld`,
+        siteUrl: `https://domainname.tld`,
+    },
+    developMiddleware: app => {
+        app.use(
+            "/api/",
+            createProxyMiddleware({
+                target: "http://localhost:3000"
+            })
+        )
     },
     plugins: [
         "gatsby-plugin-image",
