@@ -1,7 +1,9 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 module.exports = {
     siteMetadata: {
-        siteUrl: `https://domainname.tld`,
+        title: "aacosta11",
+        siteUrl: `www.aa11.dev`,
+        description: "ReactJS Developer"
     },
     developMiddleware: app => {
         app.use(
