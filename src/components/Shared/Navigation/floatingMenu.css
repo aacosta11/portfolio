@@ -1,0 +1,20 @@
+#floatingMenu {
+    top: 45px;
+    right: 0;
+    z-index: 19;
+}
+
+#listContainer {
+    width: 300px;
+}
+
+#triggerContainer {
+    z-index: 20;
+    top: 35px;
+    right: 0;
+    height: 60px;
+}
+
+#menuTrigger {
+    cursor: pointer;
+}

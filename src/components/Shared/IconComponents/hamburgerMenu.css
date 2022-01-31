@@ -1,0 +1,9 @@
+.menuIcon {
+    height: 50px;
+}
+
+.hamburgerBars {
+    border-radius: 15px;
+    height: 10%;
+    background-color: black;
+}
